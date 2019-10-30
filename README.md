@@ -1,6 +1,6 @@
-Job Matching
+# Job Matching
 
-Original problem statement:
+## Original problem statement
 
 Imagine you have a bike and a driving license. You also found a job board with a list of companies offering a job. 
 To get the job, you need to fulfill some requirements. 
@@ -17,9 +17,10 @@ There are 10.000 companies on the job board, 10 examples are as follows:
 * "Company J" doesn't require anything, you can come and start working immediately.
 * "Company K" requires a PayPal account.
 
-How to run: php run.php <input.txt
+## How to run 
+**```php run.php <input.txt```**
 
-To do:
+## To do
 	- validate input
 	- handle invalid input
 	- implement proper parser in meet_requirements() and stop using eval()
@@ -29,5 +30,4 @@ Refactoring required: the most expensive part of this solution is parsing textua
 Since any real world task will require multiple searches against more or less same list of vacancies, it makes sense to parse once 
 and store the parsed structure for faster checks in the future.
 
-Author: Val Petruchek <petruchek@gmail.com> #http://zliypes.com.ua/
-
+## Author [Val Petruchek](mailto:petruchek@gmail.com)
